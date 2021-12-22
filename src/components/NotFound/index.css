@@ -1,0 +1,41 @@
+.not-found-image {
+  height: 297px;
+  width: 269px;
+  margin-left: 550px;
+}
+.not-found-heading {
+  left: 41.67%;
+  right: 41.6%;
+  top: 56.64%;
+  bottom: 38.67%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #1e293b;
+}
+.not-found-paragraph {
+  left: 31.6%;
+  right: 31.6%;
+  top: 62.89%;
+  bottom: 30.86%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #475569;
+}
+.home-page-button {
+  padding: 12px 24px;
+  background: #f7931e;
+  border-radius: 12px;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

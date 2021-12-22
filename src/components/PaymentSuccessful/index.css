@@ -1,0 +1,41 @@
+.correct {
+  height: 64px;
+  width: 64px;
+  margin-left: 550px;
+}
+.payment-heading {
+  left: 42.01%;
+  right: 42.01%;
+  top: 47.27%;
+  bottom: 49.61%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #1e293b;
+}
+.payment-paragraph {
+  left: 39.51%;
+  right: 39.51%;
+  top: 52.73%;
+  bottom: 42.58%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+}
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.go-to-button {
+  padding: 12px 24px;
+  background: #f7931e;
+  border-radius: 12px;
+}

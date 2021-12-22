@@ -1,0 +1,240 @@
+.Tasty-Kitchen-login-form-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 705px;
+}
+.side-side-container {
+  display: flex;
+  flex-direction: row;
+  width: 705px;
+  position: relative;
+  height: 1024px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-label {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #475569;
+  margin-left: 40px;
+}
+
+.password-input-field {
+  height: 40px;
+  font-size: 14px;
+  width: 360px;
+  background-color: #e2e8f0;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px, 16px, 8px, 16px;
+  outline: none;
+  margin-left: 40px;
+}
+.username-input-field {
+  height: 40px;
+  font-size: 14px;
+  width: 360px;
+  background-color: #e2e8f0;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px, 16px, 8px, 16px;
+  outline: none;
+  margin-left: 40px;
+}
+.Tasty-Kitchen-website-logo {
+  width: 53px;
+  height: 43px;
+  padding-top: 20px;
+
+  color: #f7931e;
+}
+.Tasty-Kitchen-website-Heading {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+  padding: 0px;
+}
+.tasty-kitchen-Login-heading {
+  width: 80px;
+  height: 40px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 40px;
+  align-items: center;
+  color: #0f172a;
+  margin-left: 190px;
+}
+.Tasty-kitchen-form-container {
+  width: 456px;
+  height: 523px;
+  margin-right: 200px;
+  margin-top: 100px;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+  margin-left: 100px;
+}
+.Tasty-Kitchen-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+.Tasty-kitchen-Login-button {
+  height: 40px;
+  background-color: #f7931e;
+  border-radius: 8px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  width: 360px;
+  margin-left: 40px;
+}
+.error-message {
+  align-self: flex-start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: DM Sans;
+  line-height: 16px;
+  color: #ff0b37;
+  margin-left: 40px;
+}
+.error-message-1 {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  line-height: 16px;
+  color: #ff0b37;
+}
+@media screen and (min-width: 768px) {
+  .Tasty-Kitchen-website-logo-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Tasty-Kitchen-website-logo-mobile {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 10px;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .side-side-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Tasty-Kitchen-website-logo {
+    display: none;
+  }
+  .Tasty-Kitchen-website-Heading {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Tasty-kitchen-form-container {
+    height: 600px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Tasty-Kitchen-input-container {
+    width: 75%;
+  }
+  .input-label {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #475569;
+    margin-left: 40px;
+  }
+  .username-input-field {
+    height: 20px;
+    font-size: 14px;
+    width: 250px;
+    background-color: #e2e8f0;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px, 16px, 8px, 16px;
+    outline: none;
+    margin-left: 40px;
+  }
+  .password-input-field {
+    height: 20px;
+    font-size: 14px;
+    width: 250px;
+    background-color: #e2e8f0;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px, 16px, 8px, 16px;
+    outline: none;
+    margin-left: 40px;
+  }
+  .Tasty-kitchen-Login-button {
+    height: 40px;
+    background-color: #f7931e;
+    border-radius: 8px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    width: 150px;
+    margin-left: 40px;
+  }
+  .error-message {
+    align-self: start;
+    font-size: 10px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    color: #ff0b37;
+  }
+  .error-message-1 {
+    align-self: start;
+    font-size: 10px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    color: #ff0b37;
+  }
+  .tasty-kitchen-Login-heading {
+    margin-left: 50px;
+  }
+}

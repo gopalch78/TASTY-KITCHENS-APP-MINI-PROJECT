@@ -1,0 +1,22 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .ul-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ul-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
