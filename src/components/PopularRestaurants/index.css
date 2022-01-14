@@ -5,18 +5,10 @@
   padding-bottom: 50px;
 }
 
-@media screen and (min-width: 768px) {
-  .ul-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 150px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .ul-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.popular-restaurant-container {
+  height: 740px;
+  width: 1440px;
+  left: 0px;
+  top: 528px;
+  border-radius: 0px;
 }

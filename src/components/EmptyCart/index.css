@@ -1,31 +1,13 @@
 .empty-cart {
-  width: 425px;
-  height: 367px;
-  margin-left: 500px;
+  width: 200px;
+  height: 200px;
+  margin-left: 600px;
 }
-
 @media screen and (max-width: 767px) {
   .empty-cart {
-    width: 200px;
-    height: 200px;
-    margin-left: 100px;
+    margin-left: 80px;
   }
 }
-@media screen and (min-width: 768px) {
-  .empty-cart {
-    width: 200px;
-    height: 200px;
-    margin-left: 310px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .empty-cart {
-    width: 200px;
-    height: 200px;
-    margin-left: 620px;
-  }
-}
-
 .empty-cart-heading {
   left: 42.43%;
   right: 42.36%;

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import './index.css'
 
 const PaymentSuccessful = () => (
-  <div>
+  <div className="successful-container">
     <img
       src="https://res.cloudinary.com/dybwc1zda/image/upload/v1638693832/Vector_correct-tick_vtdzwv.png"
       alt="correct-tick"

@@ -169,6 +169,12 @@ class PopularRestaurants extends Component {
     )
   }
 
+  renderFailureView = () => (
+    <div>
+      <h1>No Items Found</h1>
+    </div>
+  )
+
   renderRestaurants = () => {
     const {apiStatus} = this.state
     switch (apiStatus) {
@@ -184,7 +190,11 @@ class PopularRestaurants extends Component {
   }
 
   render() {
-    return <div>{this.renderRestaurants()}</div>
+    return (
+      <div className="popular-restaurant-container">
+        {this.renderRestaurants()}
+      </div>
+    )
   }
 }
 export default PopularRestaurants

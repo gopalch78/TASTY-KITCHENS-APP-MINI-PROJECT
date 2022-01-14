@@ -1,7 +1,22 @@
 .correct {
   height: 64px;
   width: 64px;
-  margin-left: 550px;
+  margin-left: 650px;
+}
+@media screen and (max-width: 767px) {
+  .successful-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .correct {
+    height: 64px;
+    width: 64px;
+    margin-left: 120px;
+  }
 }
 .payment-heading {
   left: 42.01%;

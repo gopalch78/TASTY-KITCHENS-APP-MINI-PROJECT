@@ -139,9 +139,9 @@ class RestaurantDetails extends Component {
                   <p className="restaurant-rating-heading">
                     <AiFillStar /> {rating}
                   </p>
-                  <p className="restaurant-review-count-paragraph">
+                  <span className="restaurant-review-count-paragraph">
                     {reviewsCount}+Rating
-                  </p>
+                  </span>
                 </div>
                 <p className="slash">|</p>
                 <div>
@@ -149,7 +149,7 @@ class RestaurantDetails extends Component {
                     <BiRupee />
                     {costForTwo}
                   </p>
-                  <p className="cost-for-two">Cost for two</p>
+                  <span className="cost-for-two">Cost for two</span>
                 </div>
               </div>
             </div>

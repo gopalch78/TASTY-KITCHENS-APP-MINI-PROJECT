@@ -103,25 +103,29 @@ class RestaurantFoodItem extends Component {
   renderAddOrIncreaseDecreaseButtons = () => {
     const {itemQuantity, isAddButtonClicked} = this.state
     return itemQuantity > 0 && isAddButtonClicked ? (
-      <div>
+      <div className="plus-minus-container">
         <button
           type="button"
           testid="decrement-count"
           onClick={this.onDecrementQuantity}
+          className="minus-button"
         >
           -
         </button>
-        <p testid="active-count">{itemQuantity}</p>
+        <span testid="active-count" className="item-quantity">
+          {itemQuantity}
+        </span>
         <button
           type="button"
           testid="increment-count"
           onClick={this.onIncrementQuantity}
+          className="plus-button"
         >
           +
         </button>
       </div>
     ) : (
-      <button type="button" onClick={this.onClickAddToCart}>
+      <button type="button" onClick={this.onClickAddToCart} className="add-btn">
         Add
       </button>
     )

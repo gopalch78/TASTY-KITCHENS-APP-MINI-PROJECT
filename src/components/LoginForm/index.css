@@ -4,6 +4,15 @@
   flex-direction: row;
   width: 705px;
 }
+@media screen and (max-width: 767px) {
+  .Tasty-kitchen-form-container {
+    height: 640px;
+    width: 360px;
+    left: -8362px;
+    top: 13915px;
+    border-radius: 0px;
+  }
+}
 .side-side-container {
   display: flex;
   flex-direction: row;

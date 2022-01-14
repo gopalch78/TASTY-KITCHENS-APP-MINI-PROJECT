@@ -64,13 +64,15 @@ class CartItem extends Component {
     const {totalItemCost, quantity} = this.state
     return (
       <>
-        <li testid="cartItem" className="mobile-list-cart-item">
-          <img
-            className="mobile-cart-item-image"
-            src={imageUrl}
-            alt={imageUrl}
-          />
-          <div>
+        <li testid="cartItem" className="mobile-list-cart-item-container">
+          <div className="image-container">
+            <img
+              className="mobile-cart-item-image"
+              src={imageUrl}
+              alt={imageUrl}
+            />
+          </div>
+          <div className="cart-item-container">
             <h1 className="cart-Item-name">{name}</h1>
             <div className="cartItem-quantity-container">
               <button
@@ -93,6 +95,7 @@ class CartItem extends Component {
                 <BsPlusSquare />
               </button>
             </div>
+
             <p testid="total-price" className="cart-item-cost">
               <span>₹ </span>
               {totalItemCost}

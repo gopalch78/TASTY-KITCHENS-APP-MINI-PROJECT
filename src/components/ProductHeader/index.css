@@ -50,8 +50,3 @@
   outline: none;
   cursor: pointer;
 }
-@media screen and (max-width: 767px) {
-  .products-list-heading {
-    font-size: 12px;
-  }
-}

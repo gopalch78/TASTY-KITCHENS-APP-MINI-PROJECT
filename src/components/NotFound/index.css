@@ -3,6 +3,14 @@
   width: 269px;
   margin-left: 550px;
 }
+@media screen and (max-width: 767px) {
+  .not-found-image {
+    height: 120px;
+    width: 120px;
+    margin-left: 85px;
+    padding-top: 10px;
+  }
+}
 .not-found-heading {
   left: 41.67%;
   right: 41.6%;

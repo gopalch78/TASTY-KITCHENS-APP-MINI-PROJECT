@@ -11,13 +11,6 @@
   margin-right: 20px;
 }
 
-@media screen and (min-width: 768px) {
-  .restaurant-item {
-    width: 30%;
-    margin-bottom: 32px;
-  }
-}
-
 .restaurant-item-image {
   width: 160px;
   height: 100px;
