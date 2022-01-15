@@ -1,13 +1,43 @@
 .empty-cart {
   width: 200px;
   height: 200px;
-  margin-left: 600px;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 480px) {
   .empty-cart {
+    width: 120px;
+    height: 120px;
     margin-left: 80px;
   }
 }
+@media screen and (min-width: 576px) {
+  .empty-cart {
+    margin-left: 170px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .empty-cart {
+    margin-left: 280px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .empty-cart {
+    margin-left: 390px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .empty-cart {
+    margin-left: 490px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .empty-cart {
+    margin-left: 590px;
+  }
+}
+
 .empty-cart-heading {
   left: 42.43%;
   right: 42.36%;

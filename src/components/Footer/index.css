@@ -8,10 +8,25 @@
   width: 1440px;
   height: 424px;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 480px) {
   .footer-bg-container {
     height: 256px;
     width: 360px;
+    margin-top: 800px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .footer-bg-container {
+    height: 256px;
+    width: 1150px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-bg-container {
+    height: 256px;
+    width: 1500px;
   }
 }
 .image-heading-container {

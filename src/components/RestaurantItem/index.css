@@ -10,7 +10,14 @@
   margin-bottom: 24px;
   margin-right: 20px;
 }
-
+@media screen and (max-width: 480px) {
+  .restaurant-item-image {
+    height: 100px;
+    width: 160px;
+    margin-left: 550px;
+    border-radius: 8px;
+  }
+}
 .restaurant-item-image {
   width: 160px;
   height: 100px;

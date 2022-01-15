@@ -7,7 +7,38 @@
   margin-bottom: 4vh;
   width: 100%;
 }
+@media screen and (max-width: 480px) {
+  .nav-header {
+    width: 80vh;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .nav-header {
+    width: 152vh;
+    height: 100px;
+  }
+}
 
+@media screen and (min-width: 768px) {
+  .nav-header {
+    width: 152vh;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 922px) {
+  .nav-header {
+    width: 110vh;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-header {
+    width: 160vh;
+    height: 100px;
+  }
+}
 @media screen and (max-width: 767px) {
   .nav-header {
     flex-direction: column;
