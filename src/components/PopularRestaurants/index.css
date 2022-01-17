@@ -12,3 +12,26 @@
   top: 528px;
   border-radius: 0px;
 }
+
+.ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .ul-container {
+    height: 400px;
+    width: 400px;
+    margin-left: -150px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ul-container {
+    margin-left: -450px;
+  }
+  .pagination-container {
+    margin-left: -1152px;
+  }
+}

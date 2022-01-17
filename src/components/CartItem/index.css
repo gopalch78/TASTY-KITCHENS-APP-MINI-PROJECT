@@ -6,51 +6,6 @@
     display: none;
   }
 }
-@media screen and (max-width: 767px) {
-  .mobile-list-cart-item-container {
-    list-style-type: none;
-    display: flex;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cart-item-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-  }
-}
-@media screen and(max-width:767px) {
-  .cartItem-quantity-container {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media screen and (max-width: 767px) {
-  .mobile-cart-item-image {
-    height: 90px;
-    width: 136px;
-    left: 24px;
-    top: 96px;
-    border-radius: 8px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cart-Item-name {
-    font-family: DM Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.20000000298023224px;
-    text-align: left;
-  }
-  .cart-item-cost {
-    padding-bottom: 5px;
-  }
-}
-
 .desktop-cart-item-image {
   height: 100px;
   width: 136px;
@@ -60,11 +15,7 @@
   display: flex;
   justify-content: space-evenly;
 }
-@media screen and (max-width: 767px) {
-  .desktop-list-cart-item {
-    display: none;
-  }
-}
+
 .desktop-cart-item-name {
   font-family: DM Sans;
   font-style: normal;
@@ -111,4 +62,43 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
+}
+@media screen and (max-width: 767px) {
+  .desktop-list-cart-item {
+    display: none;
+  }
+  .mobile-list-cart-item-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .mobile-cart-item-image {
+    height: 90px;
+    width: 136px;
+    left: 24px;
+    top: 96px;
+    border-radius: 8px;
+    margin-left: -1250px;
+  }
+  .cart-item-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -1100px;
+  }
+  .cartItem-quantity-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+  }
+  .cart-Item-name {
+    font-size: 14px;
+  }
+  .cart-item-cost {
+    margin-left: 0px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffa412;
+  }
 }

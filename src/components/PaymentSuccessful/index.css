@@ -1,43 +1,21 @@
 .correct {
   height: 64px;
   width: 64px;
-  margin-left: 650px;
+  padding-top: 20px;
+  margin-left: 350px;
 }
 @media screen and (max-width: 767px) {
-  .successful-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .correct {
+    margin-left: 140px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 992px) {
   .correct {
-    height: 64px;
-    width: 64px;
-    margin-left: 100px;
+    margin-left: 470px;
   }
 }
-
-@media screen, (min-width: 576px), (max-width: 767px) {
+@media screen and (min-width: 1200px) {
   .correct {
-    height: 64px;
-    width: 64px;
-    margin-left: 240px;
-  }
-}
-
-@media screen and (min-width: 768px), (max-width: 992px) {
-  .correct {
-    height: 64px;
-    width: 64px;
-    margin-left: 650px;
-  }
-}
-@media screen and (min-width: 1200px), (max-width: 992px) {
-  .correct {
-    height: 64px;
-    width: 64px;
     margin-left: 650px;
   }
 }

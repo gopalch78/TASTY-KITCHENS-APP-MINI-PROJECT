@@ -3,20 +3,19 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 24px;
-  flex-wrap: wrap;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 768px) {
+  .products-list-heading {
+    color: #183b56;
+    margin-left: 340px;
+  }
   .product-heading {
-    margin-left: 550px;
-    font-family: DM Sans;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
+    margin-left: 340px;
+  }
+  .sort-by-container {
+    margin-right: 350px;
   }
 }
-
 .product-heading-container {
   margin: 10px;
 }
@@ -31,30 +30,17 @@
   font-size: 32px;
   line-height: 48px;
   color: #183b56;
+  margin-left: 220px;
+}
+.product-heading {
+  margin-left: 220px;
 }
 .sort-by-container {
   display: flex;
   align-items: center;
-}
-@media screen and (max-width: 480px) {
-  .sort-by-container-mobile {
-    margin-left: 550px;
-    display: flex;
-    align-items: center;
-  }
-  .sort-by-container {
-    display: none;
-  }
+  margin-left: 20px;
 }
 
-@media screen and (min-width: 576px) {
-  .sort-by-container-mobile {
-    display: none;
-  }
-  .sort-by-container {
-    display: flex;
-  }
-}
 .sort-by-icon {
   font-size: 24px;
   color: #475569;
@@ -80,4 +66,51 @@
   padding: 12px;
   outline: none;
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .sort-by-container-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sort-by-container {
+    display: none;
+  }
+  .products-list-heading {
+    height: 32px;
+    width: 235px;
+    left: 24px;
+    top: 276px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .product-heading {
+    height: 48px;
+    width: 312px;
+    left: 24px;
+    top: 320px;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .sort-by-container-mobile {
+    display: flex;
+  }
+  .sort-by-select {
+    margin-bottom: 40px;
+  }
+  .select-option {
+    margin-bottom: 40px;
+  }
 }

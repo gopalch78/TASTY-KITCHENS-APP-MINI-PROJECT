@@ -9,12 +9,14 @@
   padding-top: 30px;
   border-radius: 8px;
 }
-@media screen and (max-width: 767px) {
-  .restaurant-image {
-    height: 190px;
-    width: 120px;
-    margin-left: 10px;
-  }
+.restaurant-food-item-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 1100px;
+  width: 500px;
 }
 .restaurant-bg-container {
   background-image: url('https://res.cloudinary.com/dybwc1zda/image/upload/v1638888602/Group_7418bgimage_ngfuhs.png');
@@ -23,14 +25,9 @@
   display: flex;
   flex-direction: row;
 }
-
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .restaurant-bg-container {
-    border-radius: 0px;
-    width: 400px;
-    height: 220px;
-    left: 0px;
-    top: 0px;
+    width: 1440px;
   }
 }
 .restaurant-heading {
@@ -44,15 +41,6 @@
   margin-left: 15px;
 }
 
-@media screen and (max-width: 767px) {
-  .restaurant-heading {
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    text-align: left;
-  }
-}
 .restaurant-paragraph {
   font-family: Roboto;
   font-style: normal;
@@ -62,18 +50,6 @@
   margin-left: 15px;
 }
 
-@media screen and (max-width: 767px) {
-  .restaurant-paragraph {
-    left: 46.94%;
-    right: 10.28%;
-    top: 9.79%;
-    bottom: 88.99%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-  }
-}
 .restaurant-location {
   font-family: Roboto;
   font-style: normal;
@@ -83,18 +59,6 @@
   margin-left: 15px;
 }
 
-@media screen and (max-width: 767px) {
-  .restaurant-location {
-    left: 46.94%;
-    right: 14.72%;
-    top: 11.62%;
-    bottom: 87.16%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-  }
-}
 .rating-cost-container {
   display: flex;
   flex-direction: row;
@@ -111,33 +75,13 @@
   color: #ffffff;
   margin-left: 12px;
 }
-@media screen and (max-width: 767px) {
-  .restaurant-review-count-paragraph {
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    align-items: center;
-    color: #e2e8f0;
-  }
-}
+
 .slash {
   border: 1px solid #e2e8f0;
   transform: rotate(90deg);
   height: 0px;
   width: 33px;
   margin-top: 50px;
-}
-@media screen and (max-width: 767px) {
-  .slash {
-    width: 33px;
-    height: 0px;
-    left: 259px;
-    top: 186px;
-    /* Light / blue-gray / 200 */
-    border: 1px solid #e2e8f0;
-    transform: rotate(90deg);
-  }
 }
 
 .restaurant-cost {
@@ -158,4 +102,47 @@
   margin-top: 10px;
   margin-right: 150px;
   font-size: 12px;
+}
+@media screen and (max-width: 767px) {
+  .restaurant-food-item-list-container {
+    margin-left: -100px;
+    height: 2600px;
+    width: 500px;
+    flex-wrap: nowrap;
+  }
+  .restaurant-image {
+    height: 200px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  .restaurant-heading {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+  }
+  .restaurant-paragraph {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .restaurant-location {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .restaurant-bg-container {
+    height: 250px;
+    width: 390px;
+  }
 }

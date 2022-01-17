@@ -1,4 +1,4 @@
-import {BsFilterRight} from 'react-icons/bs'
+import {BsFilterRight, BsFilterLeft} from 'react-icons/bs'
 
 import './index.css'
 
@@ -13,11 +13,11 @@ const ProductHeader = props => {
       <div className="product-heading-container">
         <h1 className="products-list-heading">Popular Restaurants</h1>
         <p className="product-heading">
-          Select Your favourite restaurant special dish and make
-          <br /> your day happy...
+          Select Your favourite restaurant special dish and make your day
+          happy...
         </p>
         <div className="sort-by-container-mobile">
-          <BsFilterRight className="sort-by-icon" />
+          <BsFilterLeft className="sort-by-icon" />
           <p className="sort-by">Sort By</p>
           <select
             className="sort-by-select"

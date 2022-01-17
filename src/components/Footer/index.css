@@ -3,53 +3,31 @@
   flex-direction: column;
   justify-content: center;
   background: #0f172a;
-  padding: 40px;
   align-items: center;
-  width: 1440px;
   height: 424px;
-}
-
-@media screen and (max-width: 480px) {
-  .footer-bg-container {
-    height: 256px;
-    width: 360px;
-    margin-top: 800px;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .footer-bg-container {
-    height: 256px;
-    width: 1150px;
-  }
+  width: 1440px;
+  left: 0px;
+  top: 1676px;
+  border-radius: 0px;
 }
 @media screen and (min-width: 768px) {
   .footer-bg-container {
-    height: 256px;
-    width: 1500px;
+    margin-top: 130px;
   }
 }
 .image-heading-container {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 767px) {
-}
+
 .footer-logo {
   left: 3.77%;
   right: 4.28%;
   top: 4.65%;
   bottom: 4.97%;
+  margin-left: 590px;
 }
-@media screen and (max-width: 767px) {
-  .footer-logo {
-    height: 28.920833587646484px;
-    width: 36.77833557128906px;
-    left: 1.50927734375px;
-    top: 1.48828125px;
-    border-radius: 0px;
-  }
-}
+
 .footer-list-item {
   margin-left: 20px;
 }
@@ -61,20 +39,6 @@
   font-size: 32px;
   line-height: 48px;
   color: #ffffff;
-}
-@media screen and (max-width: 767px) {
-  .tasty-heading {
-    height: 24px;
-    left: 37.5%;
-    right: 22.78%;
-    top: calc(50% - 24px / 2 - 64px);
-    font-family: DM Sans;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    color: #ffffff;
-  }
 }
 
 .footer-paragraph {
@@ -89,24 +53,6 @@
   line-height: 32px;
   color: #ffffff;
   text-align: center;
-}
-@media screen and (max-width: 767px) {
-  .footer-paragraph {
-    width: 280px;
-    height: 48px;
-    left: 40px;
-    top: 104px;
-
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-
-    text-align: center;
-
-    color: #ffffff;
-  }
 }
 
 .footer-ul-container {
@@ -124,11 +70,38 @@
   color: white;
 }
 @media screen and (max-width: 767px) {
-  .icon-2 {
-    height: 20px;
-    width: 20px;
-    left: 1.99951171875px;
-    top: 2px;
+  .footer-bg-container {
+    height: 256px;
+    width: 360px;
     border-radius: 0px;
+    margin-top: 50px;
+  }
+  .footer-ul-container {
+    padding-bottom: 50px;
+    margin-right: 20px;
+  }
+  .tasty-heading {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .footer-logo {
+    margin-left: 60px;
+    margin-top: 50px;
+  }
+  .footer-paragraph {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
   }
 }
