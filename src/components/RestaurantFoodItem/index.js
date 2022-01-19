@@ -137,10 +137,10 @@ class RestaurantFoodItem extends Component {
 
     return (
       <li className="food-item-container" testid="foodItem">
-        <div>
+        <div className="food-image-container">
           <img src={imageUrl} alt="restaurant" className="food-image" />
         </div>
-        <div>
+        <div className="heading-cost-btn-container">
           <h1 className="food-item-heading">{name}</h1>
           <p className="food-item-cost">
             <BiRupee />

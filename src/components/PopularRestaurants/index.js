@@ -151,16 +151,20 @@ class PopularRestaurants extends Component {
             type="button"
             onClick={this.onDecreasePageNumber}
             testid="pagination-left-button"
+            className="pagination-left-button"
           >
             <BiChevronLeftSquare size={20} />
           </button>
-          <p testid="active-page-number">{activePage}</p>
-          <span>of </span>
-          <p>{totalPages}</p>
+          <span testid="active-page-number" className="active-page">
+            {activePage}
+          </span>
+          <span className="of">of </span>
+          <span className="total-pages">{totalPages}</span>
           <button
             type="button"
             onClick={this.onIncreasePageNumber}
             testid="pagination-right-button"
+            className="pagination-right-button"
           >
             <BiChevronRightSquare size={20} />
           </button>

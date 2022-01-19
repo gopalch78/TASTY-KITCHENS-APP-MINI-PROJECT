@@ -6,34 +6,15 @@
 }
 .restaurant-item {
   display: flex;
-  width: 90%;
-  margin-bottom: 24px;
-  margin-right: 20px;
+  width: 100%;
 }
 
 .restaurant-item-image {
   height: 100px;
   width: 160px;
-  left: 165px;
-  top: 216px;
   border-radius: 8px;
 }
-@media screen and (max-width: 676px) {
-  .restaurant-item-image {
-    margin-left: 350px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .restaurant-item-image {
-    height: 100px;
-    width: 120px;
-    border-radius: 8px;
-    margin-left: 350px;
-  }
-  .restaurant-item {
-    margin: 1px;
-  }
-}
+
 .rating-container {
   display: flex;
 
@@ -43,13 +24,10 @@
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   color: #334155;
-  height: 24px;
-  width: 174px;
-  left: 341px;
-  top: 755px;
-  margin-left: 10px;
+  text-align: left;
+  margin-left: 5px;
 }
 .restaurant-cuisine {
   font-family: DM Sans;
@@ -57,17 +35,15 @@
   font-weight: normal;
   font-size: 10px;
   color: #64748b;
-  height: 24px;
-  width: 174px;
-  left: 341px;
-  top: 783px;
-  margin-left: 10px;
+  text-align: left;
+  margin-left: 5px;
 }
 
 .icon1 {
-  font-size: 20px;
+  font-size: 15px;
   color: #ffcc00;
-  margin-left: 10px;
+  text-align: left;
+  margin-left: 5px;
 }
 
 .rating {
@@ -78,7 +54,6 @@
   color: #1e293b;
   display: flex;
   align-items: center;
-  margin-left: 10px;
 }
 .reviews {
   font-family: DM Sans;
@@ -88,4 +63,46 @@
   display: flex;
   align-items: center;
   color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-item-image {
+    height: 100px;
+    width: 160px;
+    border-radius: 8px;
+  }
+
+  .restaurant-name {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+  }
+  .restaurant-cuisine {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+  }
+  .icon1 {
+    height: 12px;
+    width: 12px;
+    color: #ffcc00;
+  }
+  .rating {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+
+    text-align: left;
+  }
+  .reviews {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+  }
 }

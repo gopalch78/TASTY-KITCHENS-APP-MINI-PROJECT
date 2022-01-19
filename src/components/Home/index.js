@@ -16,14 +16,12 @@ const Home = () => {
     return <Redirect to="/login" />
   }
   return (
-    <div className="home-container">
-      <div className="home-sub-container">
-        <Header />
-        <ReactSlider />
-      </div>
+    <>
+      <Header />
+      <ReactSlider />
       <PopularRestaurants />
       <Footer />
-    </div>
+    </>
   )
 }
 

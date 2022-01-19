@@ -127,7 +127,7 @@ class RestaurantDetails extends Component {
               <img
                 src={imageUrl}
                 alt="restaurant"
-                className="restaurant-image"
+                className="restaurant-image-restaurant"
               />
             </div>
             <div className="restaurant-description">
@@ -137,7 +137,7 @@ class RestaurantDetails extends Component {
               <div className="rating-cost-container">
                 <div>
                   <p className="restaurant-rating-heading">
-                    <AiFillStar /> {rating}
+                    <AiFillStar className="ai-fill-star" /> {rating}
                   </p>
                   <span className="restaurant-review-count-paragraph">
                     {reviewsCount}+Rating

@@ -1,21 +1,19 @@
 .slider-container {
-  height: 400px;
-  width: 1300px;
-  margin-left: 100px;
-  padding-top: 20px;
-  list-style-type: none;
+  height: 188px;
+  width: 320px;
 }
 
 .image {
   width: 75%;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .slider-container {
-    height: 188px;
-    width: 414px;
-    left: -17px;
-    top: 64px;
-    border-radius: 0px;
-    margin-left: -20px;
+    height: 320px;
+    width: 1440px;
+    left: 165px;
+    top: 146px;
+    border-radius: 8px;
+
+    list-style-type: none;
   }
 }

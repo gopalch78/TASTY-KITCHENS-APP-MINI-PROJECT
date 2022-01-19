@@ -9,14 +9,14 @@
   justify-content: space-evenly;
   background-color: #f9fbfe;
   flex-direction: column;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  height: 504px;
-  width: 1110px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   left: 165px;
   top: 144px;
   border-radius: 0px;
-  margin-left: 200px;
+  margin-left: 20px;
+  border: 1px solid rgba(11, 105, 255, 0.1);
+  box-sizing: border-box;
 }
 
 .cart-responsive-container {
@@ -33,27 +33,18 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  margin-right: 5px;
 }
 .list-header-name2 {
-  left: 19.79%;
-  right: 77.15%;
-  top: 15.49%;
-  bottom: 82.39%;
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  margin-left: 130px;
+  margin-left: 200px;
 }
 
 .list-header-name3 {
-  left: 19.79%;
-  right: 77.15%;
-  top: 15.49%;
-  bottom: 82.39%;
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
@@ -72,12 +63,18 @@
 
 .total-order-text {
   font-family: Roboto;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
   line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
   color: #3e4c59;
-  margin-left: 150px;
+  height: 32px;
+  width: 131px;
+  left: 213px;
+  top: 504px;
+  margin-left: 250px;
 }
 
 .total-order-amount {
@@ -85,16 +82,16 @@
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 32px;
   text-align: right;
   color: #3e4c59;
-  margin-right: 110px;
+  margin-right: 250px;
 }
 
 .place-order-button-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-right: 220px;
 }
 
 .cart-place-order-button {
@@ -104,10 +101,11 @@
   font-size: 12px;
   background: #f7931e;
   border-radius: 8px;
-  height: 40px;
-  width: 130px;
-  margin-right: 90px;
+  height: 32px;
+  width: 99px;
+  padding: 3px;
   color: white;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 767px) {
   .list-header-name1 {
@@ -122,20 +120,39 @@
   .cart-container {
     background-color: white;
   }
+  .total-cart-amount-container {
+    display: flex;
+    flex-direction: row;
+  }
   .total-order-text {
-    margin-left: -150px;
-    padding-top: 5px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 20px;
   }
   .total-order-amount {
-    padding-right: 900px;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    margin-left: 130px;
   }
   .place-order-button-container {
     display: flex;
     flex-direction: row;
-    margin-right: 920px;
+    margin-left: 200px;
+    height: 32px;
+    width: 99px;
   }
   .cart-line {
-    margin-left: -150px;
     width: 250px;
   }
 }

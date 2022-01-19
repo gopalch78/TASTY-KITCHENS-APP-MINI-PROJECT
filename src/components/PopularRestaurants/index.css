@@ -1,37 +1,66 @@
+.ul-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 320px;
+}
 .pagination-container {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding-bottom: 50px;
+  margin-bottom: 10px;
 }
 
-.popular-restaurant-container {
-  height: 740px;
-  width: 1440px;
-  left: 0px;
-  top: 528px;
-  border-radius: 0px;
+.pagination-left-button {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #334155;
+  box-sizing: border-box;
+  padding: 1px;
 }
-
-.ul-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
+.pagination-right-button {
+  height: 24px;
+  width: 24px;
+  padding: 1px;
+  border: 1px solid #334155;
+  box-sizing: border-box;
+}
+.total-pages {
+  font-family: Bree Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 1px;
+}
+.of {
+  font-family: Bree Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.active-page {
+  font-family: Bree Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: 1px;
 }
 @media screen and (min-width: 768px) {
   .ul-container {
-    height: 400px;
-    width: 400px;
-    margin-left: -150px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .ul-container {
-    margin-left: -450px;
-  }
-  .pagination-container {
-    margin-left: -1152px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 440px;
+    width: 530px;
   }
 }

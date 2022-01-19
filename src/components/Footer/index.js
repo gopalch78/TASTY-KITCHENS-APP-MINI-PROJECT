@@ -18,7 +18,6 @@ export default function Footer() {
         />
         <h1 className="tasty-heading">Tasty Kitchen</h1>
       </div>
-
       <p className="footer-paragraph">
         The only thing we are serious about is food.
         <br /> Contact us on
