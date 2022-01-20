@@ -75,9 +75,10 @@
   font-family: DM Sans;
   font-style: italic;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   color: #f7931e;
   margin-left: 10px;
+  text-decoration: none;
 }
 .desktop-home-list-item {
   margin-top: 10px;

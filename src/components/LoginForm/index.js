@@ -139,40 +139,38 @@ class LoginForm extends Component {
     }
     return (
       <div className="Tasty-Kitchen-login-form-container">
-        <div>
-          <form
-            onSubmit={this.onSubmitForm}
-            className="Tasty-kitchen-form-container"
-            autoComplete="off"
-          >
-            <div className="image-container">
-              <img
-                src="https://res.cloudinary.com/dybwc1zda/image/upload/v1638607247/Vectortasty-kitchen-website-logo_rsq7qh.png "
-                alt="website logo "
-                className="Tasty-Kitchen-website-logo"
-              />
-              <h1 className="Tasty-Kitchen-website-Heading">Tasty Kitchens</h1>
-            </div>
-            <div className="mobile-image-container">
-              <img
-                src="https://res.cloudinary.com/dybwc1zda/image/upload/v1638611751/Rectangle_1456tasty-kitchen-website-image_mxjsd8.png"
-                alt="website-logo"
-                className="Tasty-Kitchen-website-logo-mobile"
-              />
-            </div>
-            <h1 className="tasty-kitchen-Login-heading">Login</h1>
-            <div className="Tasty-Kitchen-input-container">
-              {this.renderUsernameField()}
-            </div>
-            <div className="Tasty-Kitchen-input-container">
-              {this.renderPasswordField()}
-            </div>
-            <button type="submit" className="Tasty-kitchen-Login-button">
-              Login
-            </button>
-            {showSubmitError && <p className="error-message">{errorMsg}</p>}
-          </form>
-        </div>
+        <form
+          onSubmit={this.onSubmitForm}
+          className="Tasty-kitchen-form-container"
+          autoComplete="off"
+        >
+          <div className="image-container">
+            <img
+              src="https://res.cloudinary.com/dybwc1zda/image/upload/v1638607247/Vectortasty-kitchen-website-logo_rsq7qh.png "
+              alt="website logo "
+              className="Tasty-Kitchen-website-logo"
+            />
+            <h1 className="Tasty-Kitchen-website-Heading">Tasty Kitchens</h1>
+          </div>
+          <div className="mobile-image-container">
+            <img
+              src="https://res.cloudinary.com/dybwc1zda/image/upload/v1638611751/Rectangle_1456tasty-kitchen-website-image_mxjsd8.png"
+              alt="website-logo"
+              className="Tasty-Kitchen-website-logo-mobile"
+            />
+          </div>
+          <h1 className="tasty-kitchen-Login-heading">Login</h1>
+          <div className="Tasty-Kitchen-input-container">
+            {this.renderUsernameField()}
+          </div>
+          <div className="Tasty-Kitchen-input-container">
+            {this.renderPasswordField()}
+          </div>
+          <button type="submit" className="Tasty-kitchen-Login-button">
+            Login
+          </button>
+          {showSubmitError && <p className="error-message">{errorMsg}</p>}
+        </form>
         <div className="side-side-container">
           <img
             src="https://res.cloudinary.com/dybwc1zda/image/upload/v1638611751/Rectangle_1456tasty-kitchen-website-image_mxjsd8.png"

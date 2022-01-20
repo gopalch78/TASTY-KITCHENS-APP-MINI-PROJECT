@@ -29,11 +29,13 @@ class Header extends Component {
           <div className="desktop-container">
             <div className="image-heading-container">
               <div className="image-container">
-                <img
-                  src="https://res.cloudinary.com/dybwc1zda/image/upload/v1638607247/Vectortasty-kitchen-website-logo_rsq7qh.png"
-                  alt="website-logo"
-                  className="desktop-logo"
-                />
+                <Link to="/">
+                  <img
+                    src="https://res.cloudinary.com/dybwc1zda/image/upload/v1638607247/Vectortasty-kitchen-website-logo_rsq7qh.png"
+                    alt="website-logo"
+                    className="desktop-logo"
+                  />
+                </Link>
                 <p className="desktop-heading">Tasty Kitchen</p>
               </div>
             </div>

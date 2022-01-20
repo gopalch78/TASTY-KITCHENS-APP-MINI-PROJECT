@@ -2,23 +2,18 @@
   background-color: white;
   display: flex;
   flex-direction: row;
-  width: 705px;
+  width: 90%;
+  height: 100vh;
+  max-width: 1110px;
+  margin: auto;
+  align-items: center;
 }
-@media screen and (max-width: 767px) {
-  .Tasty-kitchen-form-container {
-    height: 640px;
-    width: 360px;
-    left: -8362px;
-    top: 13915px;
-    border-radius: 0px;
-  }
-}
+
 .side-side-container {
   display: flex;
   flex-direction: row;
   width: 705px;
   position: relative;
-  height: 1024px;
 }
 .image-container {
   display: flex;
@@ -89,20 +84,20 @@
   margin-left: 190px;
 }
 .Tasty-kitchen-form-container {
-  width: 456px;
-  height: 523px;
-  margin-right: 200px;
+  width: 530px;
+  height: 65vh;
   margin-top: 100px;
+  margin-right: 150px;
   background: #fefeff;
   box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
   border-radius: 8px;
-  margin-left: 100px;
 }
 .Tasty-Kitchen-input-container {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   width: 100%;
+  margin-right: 20px;
 }
 .Tasty-kitchen-Login-button {
   height: 40px;
@@ -138,11 +133,21 @@
   line-height: 16px;
   color: #ff0b37;
 }
-@media screen and (min-width: 768px) {
-  .Tasty-Kitchen-website-logo-mobile {
-    display: none;
+
+@media screen and (max-width: 767px) {
+  .Tasty-Kitchen-login-form-container {
+    width: 90%;
+    height: 100vh;
+  }
+
+  .Tasty-kitchen-form-container {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 0px;
+    margin-right: 20px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .Tasty-Kitchen-website-logo-mobile {
     display: block;
@@ -171,12 +176,6 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .Tasty-kitchen-form-container {
-    height: 600px;
-    width: 300px;
-  }
-}
 @media screen and (max-width: 767px) {
   .Tasty-Kitchen-input-container {
     width: 75%;
@@ -245,5 +244,10 @@
   }
   .tasty-kitchen-Login-heading {
     margin-left: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Tasty-Kitchen-website-logo-mobile {
+    display: none;
   }
 }
