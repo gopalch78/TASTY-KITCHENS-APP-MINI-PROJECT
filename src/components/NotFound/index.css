@@ -1,7 +1,7 @@
 .not-found-image {
-  height: 297px;
-  width: 269px;
-  margin-left: 550px;
+  height: 250px;
+  width: 250px;
+  margin-left: 20px;
 }
 @media screen and (min-width: 768px) {
   .not-found-image {

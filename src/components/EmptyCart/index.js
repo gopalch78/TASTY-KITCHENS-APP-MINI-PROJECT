@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import './index.css'
 
 const EmptyCart = () => (
-  <div>
+  <div className="empty-container">
     <img
       src="https://res.cloudinary.com/dybwc1zda/image/upload/v1638692844/cooking_1_ggfbqn.png"
       alt="empty cart"

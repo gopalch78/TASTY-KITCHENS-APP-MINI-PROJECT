@@ -1,6 +1,6 @@
 .empty-cart {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin-left: 580px;
 }
 @media screen and (max-width: 767px) {
@@ -10,12 +10,21 @@
 }
 @media screen and (min-width: 768px) {
   .empty-cart {
-    margin-left: 300px;
+    margin-left: 500px;
+  }
+  .empty-cart-paragraph {
+    margin-left: 400px;
+  }
+  .empty-cart-heading {
+    margin-left: 400px;
+  }
+  .order-now-button {
+    margin-left: 400px;
   }
 }
 @media screen and (min-width: 992px) {
   .empty-cart {
-    margin-left: 430px;
+    margin-left: 620px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -24,10 +33,6 @@
   }
 }
 .empty-cart-heading {
-  left: 42.43%;
-  right: 42.36%;
-  top: 63.77%;
-  bottom: 31.54%;
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
@@ -37,16 +42,11 @@
   color: #1e293b;
 }
 .empty-cart-paragraph {
-  left: 37.15%;
-  right: 37.08%;
-  top: 69.63%;
-  bottom: 28.03%;
   font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-
   text-align: center;
   color: #64748b;
 }
