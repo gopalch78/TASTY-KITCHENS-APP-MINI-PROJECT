@@ -25,16 +25,35 @@ export default function Footer() {
 
       <ul className="footer-ul-container">
         <li className="footer-list-item">
-          <FaPinterestSquare testid="pintrest-social-icon" className="icon-2" />
+          <a href="https://in.pinterest.com/" target="_blank" rel="noreferrer">
+            <FaPinterestSquare
+              testid="pintrest-social-icon"
+              className="icon-2"
+            />
+          </a>
+        </li>
+
+        <li className="footer-list-item">
+          <a
+            href="https://www.instagram.com/?hl=en"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaInstagram testid="instagram-social-icon" className="icon-2" />
+          </a>
         </li>
         <li className="footer-list-item">
-          <FaInstagram testid="instagram-social-icon" className="icon-2" />
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+            <FaTwitter testid="twitter-social-icon" className="icon-2" />
+          </a>
         </li>
         <li className="footer-list-item">
-          <FaTwitter testid="twitter-social-icon" className="icon-2" />
-        </li>
-        <li className="footer-list-item">
-          <FaFacebookSquare testid="facebook-social-icon" className="icon-2" />
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+            <FaFacebookSquare
+              testid="facebook-social-icon"
+              className="icon-2"
+            />
+          </a>
         </li>
       </ul>
     </div>

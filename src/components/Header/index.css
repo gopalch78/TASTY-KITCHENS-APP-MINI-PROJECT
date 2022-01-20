@@ -171,10 +171,6 @@
     padding-right: 10px;
   }
   .nav-link-cart {
-    left: 27.22%;
-    right: 64.44%;
-    top: 51.88%;
-    bottom: 31.88%;
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
@@ -183,8 +179,9 @@
     color: #f7931e;
   }
   .nav-bar-image-close {
-    border-radius: 0px;
-    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
     margin-left: 25px;
   }
   .hamberger-menu-container {

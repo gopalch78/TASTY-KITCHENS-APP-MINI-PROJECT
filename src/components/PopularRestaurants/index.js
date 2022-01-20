@@ -115,7 +115,7 @@ class PopularRestaurants extends Component {
   }
 
   renderLoadingView = () => (
-    <div testid="restaurants-list-loader">
+    <div testid="restaurants-list-loader" className="restaurants-list-loader">
       <Loader type="TailSpin" color="#0b69ff" height="50" width="50" />
     </div>
   )
