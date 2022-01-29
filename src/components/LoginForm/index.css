@@ -122,7 +122,6 @@
   font-family: DM Sans;
   line-height: 16px;
   color: #ff0b37;
-  margin-left: 40px;
 }
 .error-message-1 {
   align-self: start;
@@ -132,6 +131,7 @@
   font-family: 'Roboto';
   line-height: 16px;
   color: #ff0b37;
+  margin-left: 50px;
 }
 
 @media screen and (max-width: 767px) {
