@@ -9,17 +9,7 @@
   align-items: center;
   flex-direction: column;
 }
-@media screen and (max-width: 767px) {
-  .correct {
-    align-items: center;
-  }
-}
 
-@media screen and (min-width: 768px) {
-  .correct {
-    align-items: center;
-  }
-}
 .payment-heading {
   left: 42.01%;
   right: 42.01%;
@@ -55,4 +45,19 @@
   padding: 12px 24px;
   background: #f7931e;
   border-radius: 12px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .correct {
+    margin-left: 400px;
+  }
+  .payment-heading {
+    margin-left: 400px;
+  }
+  .payment-paragraph {
+    margin-left: 400px;
+  }
+
+  .home-page-container {
+    margin-left: 400px;
+  }
 }
