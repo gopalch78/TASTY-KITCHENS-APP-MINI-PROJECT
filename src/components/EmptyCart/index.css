@@ -27,11 +27,7 @@
     margin-left: 620px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .empty-cart {
-    margin-left: 600px;
-  }
-}
+
 .empty-cart-heading {
   font-family: DM Sans;
   font-style: normal;
@@ -60,4 +56,18 @@
   height: 50px;
   width: 140px;
   background: #f7931e;
+}
+@media screen and (min-width: 1200px) {
+  .empty-cart {
+    margin-right: 600px;
+  }
+  .empty-cart-heading {
+    margin-right: 320px;
+  }
+  .empty-cart-paragraph {
+    margin-right: 320px;
+  }
+  .order-container {
+    margin-right: 320px;
+  }
 }
